@@ -1,0 +1,247 @@
+         body {
+            background-color: #fffafd;
+            color:#000000;
+            font-family: 'Poppins', sans-serif;
+            padding: 5px;
+            align-content: center;
+        }
+
+        .profile {
+            align-content: center;
+            width: auto;
+            margin-bottom: 5px;
+        }
+
+        .navigation {
+            margin: auto;
+            display: flex;
+            align-items: center;
+        }
+
+        #logo {
+            float: left;
+            width: 120px;
+            height: 120px;
+            padding-left: 20px;
+            padding-right: 50px;
+            margin: 5px;
+        }
+
+        #title {
+            font-size: 30px;
+            text-align: center;
+            align-items: center;
+        }
+
+        .profile ul {
+            float: right;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .profile ul li {
+            display: inline-block;
+            font-size: medium;
+            list-style: none;
+        }
+
+        .profile ul li a {
+            position: relative;
+            text-decoration: none;
+            color: #000000;
+            padding: 0px 5px;
+        }
+
+        .profile ul li a::after {
+            content: '';
+            position: absolute;
+            background: #ff4271;
+            width: 0;
+            height: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -50px;
+            transition: 0.5s;
+        }
+
+        .profile ul li a:hover::after {
+            width: 100%
+        }
+
+        .smdicons img{
+            float: left;
+            height: 32px;
+            margin: 0px 10px;
+            padding: 0px 0px 10px 10px;
+            align-content: center;
+        }
+
+        hr {
+            background-color: #ff9fc7;
+            border-width: 0px;
+            margin-top: 5px;
+            width: 100%;
+            height: 5px;
+        }
+
+        .box {
+            position: relative;
+            float: left;
+            width: 70%;
+            margin: 10px 0px 10px 10px;
+            padding: 10px;
+            text-align: center;
+            border: 3px solid #6c6a81;
+        }
+
+        div.box th {
+            color:#ffffff;
+            text-align: center;
+            text-decoration: none;
+            background-color: #c9bede;
+        }
+
+        #about {
+            text-align: center;
+        }
+
+        .box2, .box3 {
+            position: relative;
+            float: left;
+            width: 33.6%;
+            margin: 10px 0px 20px 10px;
+            padding: 10px;
+            border: 3px solid #6c6a81;
+
+        }
+
+        .box2 table, .box3 table {
+            width: 100%;
+            height: 100%;
+            border-spacing: 5px;
+        }
+
+        .emoji {
+            display: flex;
+            justify-content: center;
+            height: 30px;
+            margin-top: 10px;
+        }
+
+        div.box2 h2, div.box3 h2 {
+            text-align: center;
+            color: #ffffff;
+            margin-top: 10px;
+        }
+
+        div.box2 th, div.box3 th {
+            background-color: #a6b9e4;
+        }
+
+        div.box2 ul li, div.box3 ul li {
+            list-style: none;
+            text-align: left;
+        }
+
+        .pic img {
+            position: relative;
+            float: right 30%;
+            width: 380px;
+            height: 620px;
+            padding: 10px 10px 10px 10px;
+        }
+
+        #sources {
+            overflow: auto;
+            width: 99%;
+            height: 100px;
+            padding: 10px;
+        }
+
+        #sources p {
+            font-size: small;
+        }
+
+        #disclaimer {
+            position: absolute;
+            top: 35%;
+            left: 25%;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .box4 {
+            position: relative;
+            width: 100%;
+            padding: 5px;
+        }
+
+        .box4 table {
+            float: left;
+            border-collapse: collapse;
+            border: 3px solid #ddadb9;
+            align-content: center;
+            width: 70%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .box4 h1 {
+            color: #ffffff;
+            text-align: left;
+            margin: 10px 0px 10px 10px;
+            padding: 10px;
+        }
+
+        .box4 #bg {
+            background-color: #ddadb9;
+        }
+
+        .box4 td {
+            border: 2px solid #ddadb9;
+            text-align: center;
+            padding-left: 0px;
+
+        }
+
+        .box4 h4 {
+            text-align: center;
+        }
+
+        .box4 #chars {
+            padding: 10px;
+        }
+
+        .box4 #chars img {
+            width: 75px;
+            height: 75px;
+        }
+
+        .pic2 img {
+            position: relative;
+            float: right;
+            width: 420px;
+            height: 310px;
+            margin: -2px 0px 20px 0px;
+            padding: 0px 10px 10px 10px;
+        }
+
+        .pic2 video {
+            position: relative;
+            float: right;
+            width: 420px;
+            height: 240px;
+            margin: -2px 0px 20px 0px;
+            padding: 0px 10px 10px 10px;
+        }
+
+        footer {
+            position: fixed;
+            display: block;
+            bottom: 0;
+            left: 0;
+            padding: 5px;
+            text-align: left;
+            background-color: #eaddf0;
+            width: 100%;
+        }   
