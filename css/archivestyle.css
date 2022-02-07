@@ -8,40 +8,29 @@
 
         .profile {
             align-content: center;
-            width: auto;
-            margin-bottom: 5px;
+            width: 95%;
+            margin: auto;
         }
 
         .navigation {
-            margin: auto;
+            margin: 20px auto;
             display: flex;
             align-items: center;
         }
 
         #logo {
-            float: left;
-            width: 120px;
+            width: 500px;
             height: 120px;
-            padding-left: 20px;
-            padding-right: 50px;
-            margin: 5px;
-        }
-
-        #title {
-            font-size: 30px;
-            text-align: center;
-            align-items: center;
         }
 
         .profile ul {
-            float: right;
-            padding-left: 50px;
-            padding-right: 50px;
+            text-align: center;
+            padding-right: 20px;
         }
 
         .profile ul li {
             display: inline-block;
-            font-size: medium;
+            font-size: large;
             list-style: none;
         }
 
@@ -57,10 +46,10 @@
             position: absolute;
             background: #ff4271;
             width: 0;
-            height: 15px;
+            height: 10px;
             left: 50%;
             transform: translateX(-50%);
-            top: -50px;
+            top: -55px;
             transition: 0.5s;
         }
 
@@ -68,8 +57,15 @@
             width: 100%
         }
 
-        .smdicons img{
-            float: left;
+        .smdicons {
+            float: right;
+            margin-left: -20px;
+            width: 300px;
+        }
+
+        .smdicons img {
+            display: block;
+            float: right;
             height: 32px;
             margin: 0px 10px;
             padding: 0px 0px 10px 10px;
@@ -79,7 +75,7 @@
         hr {
             background-color: #ff9fc7;
             border-width: 0px;
-            margin-top: 5px;
+            margin-top: -15px;
             width: 100%;
             height: 5px;
         }
@@ -94,7 +90,17 @@
             border: 3px solid #6c6a81;
         }
 
-        div.box th {
+        .abox {
+            position: relative;
+            float: right;
+            width: 68%;
+            margin: 10px 0px 10px 10px;
+            padding: 10px;
+            text-align: center;
+            border: 3px solid #6c6a81;
+        }
+
+        div.box th, div.abox th {
             color:#ffffff;
             text-align: center;
             text-decoration: none;
@@ -151,6 +157,14 @@
             padding: 10px 10px 10px 10px;
         }
 
+        .apic img {
+            position: relative;
+            float: left 30%;
+            width: 420px;
+            height: 820px;
+            padding: 10px 10px 10px 10px;
+        }
+
         #sources {
             overflow: auto;
             width: 99%;
@@ -181,7 +195,7 @@
             border-collapse: collapse;
             border: 3px solid #ddadb9;
             align-content: center;
-            width: 70%;
+            width: 65%;
             padding: 10px;
             margin-bottom: 20px;
         }
@@ -220,8 +234,8 @@
         .pic2 img {
             position: relative;
             float: right;
-            width: 420px;
-            height: 310px;
+            width: 490px;
+            height: 270px;
             margin: -2px 0px 20px 0px;
             padding: 0px 10px 10px 10px;
         }
@@ -229,10 +243,213 @@
         .pic2 video {
             position: relative;
             float: right;
-            width: 420px;
+            width: 490px;
             height: 240px;
             margin: -2px 0px 20px 0px;
             padding: 0px 10px 10px 10px;
+        }
+
+        .pic2 h4 {
+            position: relative;
+            float: left;
+            text-align: center;
+            margin: -10px 0px 20px 0px;
+            padding: 0px 10px 10px 20px;
+        }
+
+        .questdiv {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .questdiv img {
+            width: 60%;
+            height: 60%;
+        }
+        
+        .questdiv2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .thumbnail {
+            transition: all 0.5s ease-out;
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.06); 
+        }
+
+        #questtext {
+            text-align: center;
+            color: #4a3f5e;
+            font-weight: bold;
+        }
+
+        .disclaimer2 {
+            background-color: #e2d1db;
+            border-radius: 70px;
+            position: relative;
+            padding: 20px 20px 20px 40px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .disclaimer2 img {
+            float: right;
+            width: 130px;
+            height: 130px;
+        }
+
+        .button {
+            position: relative;
+            padding: 20px 20px 20px 20px;
+            border: none;
+            border-radius: 70px;
+            background-color: #b393a2;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            transition-duration: 0.5s;
+            font-size: medium;
+        }
+
+        .button:hover {
+            background-color: #cfb3c0;
+            color: #ffffff;
+            border: none;
+        }
+
+        .lore {
+            float: left;
+            vertical-align: middle;
+            width: 70%;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .loreimg {
+            float: left;
+            vertical-align: middle;
+            padding: 20px;
+        }
+
+        .loreimg img {
+            height: 620px;
+            width: 360px;
+        }
+
+        .buildbg {
+            background-color: #f7e6f7;
+            padding: 20px;
+            margin: 2% 4%;
+            overflow: auto;
+            border-radius: 50px;
+        }
+
+        .build1 {
+            width: 25%;
+            background-color: #bec8eb;
+            padding: 2%;
+            margin: 2%;
+            float: left; 
+            overflow: auto;
+            border-radius: 80px;
+        }
+
+        .build2 {
+            width: 25%;
+            background-color: #f0c9c7;
+            padding: 2%;
+            margin: 2%;
+            float: left; 
+            overflow: auto;
+            border-radius: 80px;
+        }
+
+        .build3 {
+            width: 25%;
+            background-color: #cad3bd;
+            padding: 2%;
+            margin: 2%;
+            float: left; 
+            overflow: auto;
+            border-radius: 80px;
+        }
+
+        .splash {
+            width: 100%;
+            height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 80px;
+        }
+
+        .buildbg h1, .buildbg h3 {
+            text-align: center;
+            color: #fffafd;
+            margin: 0px;
+        }
+
+        .buildbg p {
+            text-align: center;
+        }
+
+        #heading {
+            text-align: center;
+            color: #6c6a81;
+            margin: 0px;
+        }
+
+        .build4 {
+            width: auto;
+            background-color: #fffafd;
+            padding: 1%;
+            margin-top: 30px; 
+            overflow: auto;
+            border-radius: 50px;
+            text-align: center;
+        }
+
+        .weapons, .weapons2 {
+            padding: 1px;
+            margin: auto;
+            display: inline-block;
+        }
+
+        .weapons3 {
+            padding: 0px;
+            margin: auto;
+            display: inline-block;
+        }
+
+        .weapons img {
+            height: 150px;
+            width: 100px;
+        }
+
+        .weapons2 img, .weapons3 img {
+            height: 130px;
+            width: 100px;
+        }
+
+        .artifs {
+            padding-bottom: -10px;
+            margin: auto;
+            display: inline-block;
+        }
+        
+        .artifs img {
+            height: 140px;
+            width: 150px;
         }
 
         footer {
